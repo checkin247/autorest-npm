@@ -2,11 +2,13 @@
 > built on top of alpine npm lts
 > installs autorest 
 
+Docker container at: https://hub.docker.com/repository/docker/checkin247/autorest-npm
+
 ## Usage
 
 Run the docker image to create the autorest client.
 
-Mount a volume to the "/tmp" directory with the api declaration.
+Mount a volume to the "/tmp" directory with the api declaration.git remote add origin git@github.com:checkin247/autorest-npm.git
 
 Autorest reference:
 https://github.com/azure/autorest/blob/main/docs/generate/flags.md
